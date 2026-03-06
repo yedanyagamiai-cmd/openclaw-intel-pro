@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-primary: #0a0a0f;
+  --bg-secondary: #111118;
+  --bg-card: #16161f;
+  --border: #1e1e2e;
+  --text-primary: #f0f0f5;
+  --text-secondary: #8888a0;
+}
+
+body {
+  background: var(--bg-primary);
+  color: var(--text-primary);
+}
+
+@layer utilities {
+  .gradient-text {
+    @apply bg-gradient-to-r from-claw-400 via-accent-400 to-claw-300 bg-clip-text text-transparent;
+  }
+  .glow-border {
+    box-shadow: 0 0 20px rgba(14, 165, 233, 0.15), inset 0 0 20px rgba(14, 165, 233, 0.05);
+  }
+  .card-hover {
+    @apply transition-all duration-300 hover:border-claw-500/50 hover:shadow-lg hover:shadow-claw-500/10;
+  }
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Code block style */
+.code-block {
+  background: #0d1117;
+  border: 1px solid #1e1e2e;
+  border-radius: 8px;
+  padding: 1rem;
+  font-family: 'JetBrains Mono', 'Fira Code', monospace;
+  font-size: 0.85rem;
+  line-height: 1.6;
+  overflow-x: auto;
+}
+
+.code-block .keyword { color: #ff7b72; }
+.code-block .string { color: #a5d6ff; }
+.code-block .comment { color: #8b949e; }
+.code-block .property { color: #d2a8ff; }
+.code-block .value { color: #79c0ff; }
