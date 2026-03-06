@@ -13,7 +13,7 @@ export async function GET() {
         service: 'OpenClaw Intel Pro',
         tier: 'free',
         upgrade: 'Add Authorization: Bearer YOUR_KEY for R1-powered deep analysis',
-        docs: 'https://openclaw-intel-pro.vercel.app/api/v1/query',
+        docs: 'https://openclaw-intel-pro.onrender.com/api/v1/query',
       },
     }, {
       headers: {

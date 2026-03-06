@@ -37,7 +37,7 @@ export async function POST(req: NextRequest) {
           error: 'Rate limit exceeded',
           tier: config.tier,
           resetAt: new Date(rl.resetAt).toISOString(),
-          upgrade: config.tier === 'free' ? 'Upgrade to Pro for unlimited queries: https://openclaw-intel-pro.vercel.app/#pricing' : undefined,
+          upgrade: config.tier === 'free' ? 'Upgrade to Pro for unlimited queries: https://openclaw-intel-pro.onrender.com/#pricing' : undefined,
         },
         {
           status: 429,

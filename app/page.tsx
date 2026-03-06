@@ -277,8 +277,8 @@ export default function Home() {
                 <li>&#x2713; Revenue intelligence</li>
                 <li>&#x2713; Priority support</li>
               </ul>
-              <a href="https://buy.stripe.com/test_PLACEHOLDER_PRO" className="block text-center px-6 py-3 bg-gradient-to-r from-claw-600 to-claw-500 rounded-lg font-semibold hover:from-claw-500 hover:to-claw-400 transition shadow-lg shadow-claw-500/20">
-                Get API Key
+              <a href="mailto:yedanyagamiai@gmail.com?subject=Intel%20Pro%20API%20Key%20Request&body=Hi%2C%20I'd%20like%20a%20Pro%20API%20key%20for%20OpenClaw%20Intel%20Pro%20(%2419%2Fmo).%0A%0AMy%20use%20case%3A%20" className="block text-center px-6 py-3 bg-gradient-to-r from-claw-600 to-claw-500 rounded-lg font-semibold hover:from-claw-500 hover:to-claw-400 transition shadow-lg shadow-claw-500/20">
+                Get API Key →
               </a>
             </div>
 
@@ -294,8 +294,8 @@ export default function Home() {
                 <li>&#x2713; Structured JSON</li>
                 <li>&#x2713; Bulk discounts</li>
               </ul>
-              <a href="https://buy.stripe.com/test_PLACEHOLDER_AGENT" className="block text-center px-6 py-3 border border-accent-500/30 rounded-lg hover:bg-accent-500/5 transition">
-                Get Agent Key
+              <a href="mailto:yedanyagamiai@gmail.com?subject=Agent%20API%20Key%20Request&body=Hi%2C%20I'd%20like%20an%20Agent%20API%20key%20for%20OpenClaw%20Intel%20Pro%20(%240.05%2Fquery).%0A%0AMy%20agent%20framework%3A%20" className="block text-center px-6 py-3 border border-accent-500/30 rounded-lg hover:bg-accent-500/5 transition">
+                Get Agent Key →
               </a>
             </div>
           </div>

@@ -31,7 +31,7 @@ export async function POST(req: NextRequest) {
         {
           success: false,
           error: 'Deep analysis requires Pro or Agent tier',
-          upgrade: 'https://openclaw-intel-pro.vercel.app/#pricing',
+          upgrade: 'https://openclaw-intel-pro.onrender.com/#pricing',
           tier: config.tier,
         },
         { status: 403, headers: { 'Access-Control-Allow-Origin': '*' } }
